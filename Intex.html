@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+<head>
+<style>
+body{
+   background-image:url('MDs/fundo10.jpg');
+}
+fieldset{
+	color:white;
+}
+input[type="submit"]{
+ color:blue;
+}
+footer{
+text-align:right;
+color:white;
+}
+div{
+background-color:black;
+color:white;
+}
+</style>
+<meta charset="utf-8">
+<tittle>Exercicio34</tittle>
+</head>
+<body>
+ <div contenteditable="true">
+	<h3>ETER</h3>
+	<p contenteditable="false"> Rua Clarimundo de Melo, 837</p>
+ </div>
+<fieldset>
+ <legend>Dados Pessoais</legend>
+	<form>
+	<label>Nome:</label>
+	<input name= "nome" required type= "text" size=60 maxlength=60 placeholder="Entre com o seu nome" value=""autocomplete=off>
+	<label>E-mail:<input type= "Email" name= "email" placeholder= "Entre com seu E-mail" size=60 ></label>
+	<label>Endereço:</label>
+	<input name= "endereco" required type= "text" size=60 maxlength=60 placeholder="Entre com o seu endereço" value="">				
+	<label>Numero:</label>
+	<input name= "numero" required type= "number" min="1" max="100000" value="1">
+	<p><label>Nascimento:<input type= "date" name="nascimento"></label>
+	<label>E-mail:<input type= "Email" name= "email" placeholder= "Entre com seu E-mail" size=60 ></label></p>
+		<p><label>cor:<input type= "color" name= "cor" ></label></p>
+		<p><input type= submit value= enviar></p>
+	</form>
+	</fieldset>
+	<footer>
+		<p>Feito por Aluno(a):"Cauan L, Laila Alves"</p>
+	</footer>
+	</body>
+	</html>
+
